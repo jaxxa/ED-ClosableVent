@@ -16,10 +16,11 @@
 		<filthLeaving>BuildingRubble</filthLeaving>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<!-- The Vent from the base Game, Abstracted -->
+	<ThingDef ParentName="BuildingBase" Name="VentBase" Abstract="True">
 		<defName>Vent</defName>
 		<label>vent</label>
-		<thingClass>Enhanced_Development.Temperature.Building_ClosableVent</thingClass>
+		<thingClass>Building_Vent</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Misc/TempControl/Vent</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -43,7 +44,7 @@
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<tickerType>Rare</tickerType>
-		<description>A vent for equalizing the temperature between two rooms without allowing people to walk between them. Able to be closed.</description>
+		<description>A simple vent for equalizing the temperature between two rooms without allowing people to walk between them.</description>
 		<costList>
 			<Steel>30</Steel>
 		</costList>
@@ -55,11 +56,17 @@
 		<building>
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
+		<designationCategory>Temperature</designationCategory>
+		<designationHotKey>N</designationHotKey>
+	</ThingDef>
+
+	<!-- My customisations to make the Vent Closable-->
+	<ThingDef ParentName="VentBase">
+		<thingClass>Enhanced_Development.Temperature.Building_ClosableVent</thingClass>
+		<description>A simple vent for equalizing the temperature between two rooms without allowing people to walk between them. Can be Flicked to a closed position .</description>
 		<comps>
 			<li Class="CompProperties_Flickable"/>
 		</comps>
-		<designationCategory>Temperature</designationCategory>
-		<designationHotKey>N</designationHotKey>
 	</ThingDef>
 
 </Defs>
