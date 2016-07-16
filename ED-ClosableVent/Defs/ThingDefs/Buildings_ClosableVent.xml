@@ -31,7 +31,7 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<altitudeLayer>BuildingTall</altitudeLayer>
+		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<fillPercent>1</fillPercent>
 		<coversFloor>true</coversFloor>
@@ -57,12 +57,11 @@
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
 		<designationCategory>Temperature</designationCategory>
-		<designationHotKey>N</designationHotKey>
 	</ThingDef>
 
 	<!-- My customisations to make the Vent Closable-->
 	<ThingDef ParentName="VentBase">
-		<thingClass>Enhanced_Development.Temperature.Building_ClosableVent</thingClass>
+		<thingClass> EnhancedDevelopment.ClosableVent.Building_Vent_ClosableVent</thingClass>
 		<description>A simple vent for equalizing the temperature between two rooms without allowing people to walk between them. Can be Flicked to a closed position .</description>
 		<comps>
 			<li Class="CompProperties_Flickable"/>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>ED-ClosableVent</name>
+	<targetVersion>0.14.1230</targetVersion>
 	<author>Jaxxa</author>
-	<url>https://ludeon.com/forums/index.php?topic=15606.0</url>
+	<url>https://ludeon.com/forums/index.php?topic=18995.0</url>
 	<description>
 Modified the existing Vent System by allowing the Vents to be closed.
 	</description>

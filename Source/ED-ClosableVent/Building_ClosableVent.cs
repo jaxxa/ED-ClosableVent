@@ -6,9 +6,9 @@ using Verse;
 using RimWorld;
 using UnityEngine;
 
-namespace Enhanced_Development.Temperature
+namespace EnhancedDevelopment.ClosableVent
 {
-    public class Building_ClosableVent : RimWorld.Building_Vent
+    public class Building_Vent_ClosableVent : RimWorld.Building_Vent
     {
         public override void SpawnSetup()
         {
@@ -27,8 +27,7 @@ namespace Enhanced_Development.Temperature
             }
         }
         private CompFlickable m_FlickComp;
-
-
+        
         public override void TickRare()
         {
             if (this.FlickComp.SwitchIsOn)
