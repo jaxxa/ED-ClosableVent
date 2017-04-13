@@ -10,9 +10,9 @@ namespace EnhancedDevelopment.ClosableVent
 {
     public class Building_Vent_ClosableVent : RimWorld.Building_Vent
     {
-        public override void SpawnSetup()
+        public override void SpawnSetup(Map map)
         {
-            base.SpawnSetup();
+            base.SpawnSetup(map);
         }
 
         private CompFlickable FlickComp

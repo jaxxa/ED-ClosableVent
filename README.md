@@ -6,7 +6,10 @@ Aditional details can be fount in About.xml
 #Change Log
 
 01.00.00
-*Initial Release
+ * Initial Release
 
 02.00.00
-*Alpha 14 Update
+ * Alpha 14 Update
+
+03.00.00
+ * Alpha 16 Update

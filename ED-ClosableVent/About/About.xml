@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>ED-ClosableVent</name>
-	<targetVersion>0.14.1230</targetVersion>
+	<targetVersion>0.16.00</targetVersion>
 	<author>Jaxxa</author>
 	<url>https://ludeon.com/forums/index.php?topic=18995.0</url>
-	<description>
+	<description>Version: 03.00.00
+	
 Modified the existing Vent System by allowing the Vents to be closed.
+
+Discussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995
 	</description>
 </ModMetaData>
