@@ -1,3 +1,6 @@
+As this Functionality is now present in the base game as of A17 this mod will not be updated.
+
+
 # ED-ClosableVent
 This is the Readme for the Enhanced Devemopment Mod, ED-ClosableVent, for the Game Rimworld.
 
